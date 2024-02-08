@@ -11,6 +11,7 @@ import DescriptionIcon from "@material-ui/icons/Description";
 import { Introduction } from "./Introduction";
 import { Timeline } from "./Timeline";
 import { Techstacks } from "./Techstacks";
+import { Certificate } from "./Certificate";
 // import Button from "@mui/material/Button";
 export const About = () => {
   return (
@@ -79,7 +80,7 @@ export const About = () => {
           className="btnResume"
           onClick={() => {
             window.open(
-              "https://drive.google.com/file/d/1ZK_C7lRzvyDHy9uZhb_L-ZdbWJw9TqKp/view?usp=sharing"
+              "https://drive.google.com/file/d/1eE0AQjxMeEL_l4baC_Pn0P-GPWcmdd0e/view?usp=sharing"
             );
           }}
         >
@@ -88,6 +89,7 @@ export const About = () => {
       </div>
       <Introduction />
       <Timeline />
+      <Certificate />
       <section id="#skills">
         <Techstacks />
       </section>

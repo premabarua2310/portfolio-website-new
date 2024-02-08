@@ -1,23 +1,9 @@
 import React from "react";
 import "./Projects.css";
 import { FaReact, FaHardHat } from "react-icons/fa";
-import {
-  SiBlockchaindotcom,
-  SiHtml5,
-  SiMaterialui,
-  SiChai,
-  SiEthereum,
-  SiExpress,
-  SiSocketdotio,
-  SiTailwindcss,
-  SiReactrouter,
-  SiJavascript,
-  SiMongodb,
-  SiNodedotjs,
-} from "react-icons/si";
+import { SiHtml5, SiTailwindcss } from "react-icons/si";
 import { BsBootstrap } from "react-icons/bs";
 import { DiCss3 } from "react-icons/di";
-import { VscJson } from "react-icons/vsc";
 import { IoLogoJavascript } from "react-icons/io";
 import { TbBrandNextjs } from "react-icons/tb";
 import port1 from "../../assets/port1.png";
@@ -46,9 +32,7 @@ export const Projects = () => {
               <div className="project_information">
                 <h2>Tour Agency Website</h2>
                 <p>
-                  Rockstar games is a video game company who develops lots of
-                  games like GTA, Red Dead, and many more. we build clone of
-                  their store website.
+                  It's a tour agency website. This project is based on HTML, CSS, JavaScript. 
                 </p>
                 <div>
                   <DiCss3 />
@@ -92,9 +76,7 @@ export const Projects = () => {
               <div className="project_information">
                 <h2>Login Page</h2>
                 <p>
-                  Location based weather app. User can also search for their
-                  cities and pickup location from map to see weather data of
-                  respective places.
+                  It's a simple login page where i am using NextJS and Tailwind CSS.
                 </p>
                 <div>
                 <TbBrandNextjs />
@@ -135,9 +117,7 @@ export const Projects = () => {
               <div className="project_information">
                 <h2>Ecommerce Website</h2>
                 <p>
-                  APIJS Mongo is the open source liabrary which helps you to
-                  create backend API's in Node.js just by using simple methods
-                  like connectToMongoDB() & createUserAPI().
+                  It's a ecommerce based website. In this project  i am using HTML, CSS, JavaScript.
                 </p>
                 <div>
                 <DiCss3 />
@@ -181,14 +161,12 @@ export const Projects = () => {
               <div className="project_information">
                 <h2>Portfolio Website</h2>
                 <p>
-                  Backend API for a google drive like app built using NodeJS,
-                  Express, Mongoose, MongoDB Atlas and AWS S3 for storage. CRUD
-                  operations for users, files and folders.
+                It's a simple portfolio website. In this project  i am using HTML, CSS, JavaScript.
                 </p>
                 <div>
-                  <SiNodedotjs />
-                  <SiExpress />
-                  <SiMongodb />
+                <DiCss3 />
+                  <SiHtml5 />
+                  <IoLogoJavascript />
                 </div>
                 <div>
                   <a
@@ -197,7 +175,7 @@ export const Projects = () => {
                     rel="noreferrer"
                   >
                     <span type="button" className="btns onbt onbt">
-                      URL for the API
+                    See this Live
                     </span>
                   </a>
                   <a
@@ -227,9 +205,7 @@ export const Projects = () => {
               <div className="project_information">
                 <h2>Psd to HTML</h2>
                 <p>
-                  UNIQLO is a clothing apparel company, from Japan. They also
-                  in online mode through their website. We
-                  cloned their website.
+                It's a company based website. Where converting this page pdf to HTML.
                 </p>
                 <div>
                 <BsBootstrap />
@@ -272,8 +248,7 @@ export const Projects = () => {
               <div className="project_information">
                 <h2>Landing Page</h2>
                 <p>
-                  PulsePlus is an E-commerce web application for online Buying
-                  Medicines and Consult to Doctor and Book a near Testlab.
+                  It's a simple landing page, in this page is build with ReactJs and Tailwind CSS.
                 </p>
                 <div>
                   <FaReact />

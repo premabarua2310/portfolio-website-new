@@ -30,6 +30,7 @@ export const Timeline = () => {
         <h2 className="section__title" data-aos="fade-right">
           My <span className="different">Timeline 💫</span>
         </h2>
+        <h2 className="different section__title">Experience</h2>
         <VerticalTimeline lineColor={linecolor}>
           <VerticalTimelineElement
             date={"Feb 2023 - Feb 2024"}
@@ -64,7 +65,7 @@ export const Timeline = () => {
             </h4>
             <p data-aos="fade-right">
             I have been working here for 1 year as a junior software developer. During this period, I have been working on PID news portal project, 
-            task management systems, recently working on BMITVAT project using Reactjs.
+            task management systems, recently working as a front-end developer on BMITVAT project using Reactjs . 
             </p>
           </VerticalTimelineElement>
           {/* <VerticalTimelineElement
@@ -141,6 +142,22 @@ export const Timeline = () => {
             I joined some BASIS events and also worked with them.
             </p>
           </VerticalTimelineElement>
+          
+
+          <VerticalTimelineElement
+            icon={<StarRateIcon />}
+            iconStyle={{
+              border: ` 3px solid var(--clr-primary)`,
+              backgroundColor: `var(--clr-bg)`,
+              color: `var(--clr-primary)`,
+            }}
+          ></VerticalTimelineElement>
+        </VerticalTimeline>
+      </div>
+
+      <div className="section mainsection">
+        <h2 className="different section__title">Education</h2>
+        <VerticalTimeline lineColor={linecolor}>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date={"October 2022"}
@@ -210,7 +227,7 @@ export const Timeline = () => {
               University of Information Technology & Sciences (UITS)
             </h4>
             <p data-aos="fade-right">
-              Started in 2019 and delivered Projects on php and js till 2022.
+              Started in 2019 and delivered Projects on js and php till 2022.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -246,7 +263,7 @@ export const Timeline = () => {
               Dhaka Cantonment Girls' Public School & College
             </h4>
             <p data-aos="fade-right">
-            Studied Science and Passed with 4.19 GPA.
+            Studied in Science group.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -282,7 +299,7 @@ export const Timeline = () => {
               Govt. Kalachandpur High School and College
             </h4>
             <p data-aos="fade-right">
-              Studied Science and Passed with 4.67 GPA.
+              Studied in Science group.
             </p>
           </VerticalTimelineElement>
 

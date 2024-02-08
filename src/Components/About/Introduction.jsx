@@ -28,12 +28,12 @@ export const Introduction = () => {
                   {" "}
                   Gulshan, Dhaka (Bangladesh)
                 </span> */}
-                . I have completed my graduation in BSc. (Computer Engneering)
+                . I have completed my graduation in BSc. (Computer Science & Engneering)
                 from{" "}
                 <span className="different">
                 University of Information Technology & Sciences | UITS
                 </span>
-                . Then I joined Junior Software developer {" "}
+                . Then I joined Junior Software developer at {" "}
                 <span className="different">BMIT Solutions Ltd.</span>
               </h4>
               <h4>Terms That can describe me apart form Coding :</h4>

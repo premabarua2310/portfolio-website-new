@@ -8,12 +8,13 @@ import {
   SiExpress,
   SiRedis,
   SiTailwindcss,
-  SiNetlify
+  SiNetlify,
+  SiJavascript
 } from "react-icons/si";
 import { DiCss3, DiMongodb } from "react-icons/di";
-import { SiJavascript, SiHeroku } from "react-icons/si";
 import { VscGithub } from "react-icons/vsc";
 import { BsBootstrap, BsWordpress } from "react-icons/bs";
+import { TbBrandNextjs } from "react-icons/tb";
 
 export const Techstacks = () => {
   return (
@@ -38,18 +39,18 @@ export const Techstacks = () => {
             <h5>React</h5>
           </div>
           <div>
-            <FaNodeJs />
-            <h5>Nodejs</h5>
+            <SiTailwindcss />
+            <h5>Tailwindcss</h5>
           </div>
-          {/* <div>
-            <DiMongodb />
-            <h5>MongoDb</h5>
-          </div> */}
+          <div>
+            <TbBrandNextjs />
+            <h5>Nextjs</h5>
+          </div> 
 
           {/* <div>
             <SiExpress />
             <h5>Express</h5>
-          </div> */}
+          </div>
 
           {/* <div>
             <FaAws />
