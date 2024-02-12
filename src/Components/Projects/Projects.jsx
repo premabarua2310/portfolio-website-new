@@ -12,6 +12,7 @@ import port3 from "../../assets/port3.png";
 import port4 from "../../assets/port4.png";
 import port5 from "../../assets/port5.png";
 import port6 from "../../assets/port6.png";
+import port7 from "../../assets/port7.png";
 
 export const Projects = () => {
   return (
@@ -68,24 +69,22 @@ export const Projects = () => {
               <div className="project_videocontainer">
                 <div>
                   <img
-                    src={port2}
-                    alt="Sk-Weather-App"
+                    src={port7}                    alt="Todo-App"
                   />
                 </div>
               </div>
               <div className="project_information">
-                <h2>Login Page</h2>
+                <h2>Todo List App</h2>
                 <p>
-                  It's a simple login page where i am using NextJS and Tailwind CSS.
+                  It's a simple todo List application built using ReactJs. Users allowed to add, edit, and delete tasks.
                 </p>
                 <div>
-                <TbBrandNextjs />
-                  <SiTailwindcss />
-                  {/* <IoLogoJavascript /> */}
+                <FaReact />
+                <DiCss3 />
                 </div>
                 <div>
                   <a
-                    href="https://login-page-53df53.netlify.app/"
+                    href="https://todo-list-app-3c3b16.netlify.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -94,7 +93,7 @@ export const Projects = () => {
                     </span>
                   </a>
                   <a
-                    href="https://github.com/premabarua2310/login_nextjs.git"
+                    href="https://github.com/premabarua2310/React-todo.git"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -197,33 +196,33 @@ export const Projects = () => {
               <div className="project_videocontainer">
                 <div>
                   <img
-                    src={port4}
-                    alt="Uniqlo-Clone"
+                    src={port2}
+                    alt="Sk-Weather-App"
                   />
                 </div>
               </div>
               <div className="project_information">
-                <h2>Psd to HTML</h2>
+                <h2>Login Page</h2>
                 <p>
-                It's a company based website. Where converting this page pdf to HTML.
+                  It's a simple login page where i am using NextJS and Tailwind CSS.
                 </p>
                 <div>
-                <BsBootstrap />
-                <DiCss3 />
-                  <SiHtml5 />
+                <TbBrandNextjs />
+                  <SiTailwindcss />
+                  {/* <IoLogoJavascript /> */}
                 </div>
                 <div>
                   <a
-                    href="https://bright-conkies-0ea3d0.netlify.app/"
+                    href="https://login-page-53df53.netlify.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <span type="button" className="btns onbt onbt">
+                    <span type="button" className="btns onbt">
                       See this Live
                     </span>
                   </a>
                   <a
-                    href="https://github.com/Shreyasgkhakal100/uniqlo-backend-2"
+                    href="https://github.com/premabarua2310/login_nextjs.git"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -235,6 +234,7 @@ export const Projects = () => {
               </div>
             </div>
           </div>
+
           <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">

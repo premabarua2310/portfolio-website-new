@@ -1,23 +1,24 @@
 {
   "files": {
     "main.css": "/static/css/main.84a805d2.css",
-    "main.js": "/static/js/main.5e2b0c7b.js",
+    "main.js": "/static/js/main.f368abd0.js",
     "static/media/Prema Barua-01.jpg": "/static/media/Prema Barua-01.bd24b847ab84a387dbb7.jpg",
     "static/media/port4.png": "/static/media/port4.28af86466f711250c4e0.png",
     "static/media/port3.png": "/static/media/port3.451994b15c8340638057.png",
     "static/media/port1.png": "/static/media/port1.64683fa439f9db5901de.png",
     "static/media/port2.png": "/static/media/port2.62c756bc10c62c190e47.png",
     "static/media/port5.png": "/static/media/port5.999a50ad98428dd8871e.png",
+    "static/media/port7.png": "/static/media/port7.99e5d8a73cd14032882f.png",
     "static/media/port6.png": "/static/media/port6.e8d901aa6d8bbb6aea02.png",
     "static/media/Java certificate.png": "/static/media/Java certificate.31e0ae9e9cb893c40a16.png",
     "static/media/bg-photo.jpg": "/static/media/bg-photo.00c15e146fc88780a84b.jpg",
     "static/media/P-logo.png": "/static/media/P-logo.ca87d7f4c940fa1498c5.png",
     "index.html": "/index.html",
     "main.84a805d2.css.map": "/static/css/main.84a805d2.css.map",
-    "main.5e2b0c7b.js.map": "/static/js/main.5e2b0c7b.js.map"
+    "main.f368abd0.js.map": "/static/js/main.f368abd0.js.map"
   },
   "entrypoints": [
     "static/css/main.84a805d2.css",
-    "static/js/main.5e2b0c7b.js"
+    "static/js/main.f368abd0.js"
   ]
 }
